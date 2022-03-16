@@ -1,0 +1,15 @@
+C:\Users\User\RiderProjects\Solution1\dfatonfa\bin\Debug\net6.0\dfatonfa.exe
+C:\Users\User\RiderProjects\Solution1\dfatonfa\bin\Debug\net6.0\dfatonfa.deps.json
+C:\Users\User\RiderProjects\Solution1\dfatonfa\bin\Debug\net6.0\dfatonfa.runtimeconfig.json
+C:\Users\User\RiderProjects\Solution1\dfatonfa\bin\Debug\net6.0\dfatonfa.dll
+C:\Users\User\RiderProjects\Solution1\dfatonfa\bin\Debug\net6.0\dfatonfa.pdb
+C:\Users\User\RiderProjects\Solution1\dfatonfa\obj\Debug\net6.0\dfatonfa.csproj.AssemblyReference.cache
+C:\Users\User\RiderProjects\Solution1\dfatonfa\obj\Debug\net6.0\dfatonfa.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\RiderProjects\Solution1\dfatonfa\obj\Debug\net6.0\dfatonfa.AssemblyInfoInputs.cache
+C:\Users\User\RiderProjects\Solution1\dfatonfa\obj\Debug\net6.0\dfatonfa.AssemblyInfo.cs
+C:\Users\User\RiderProjects\Solution1\dfatonfa\obj\Debug\net6.0\dfatonfa.csproj.CoreCompileInputs.cache
+C:\Users\User\RiderProjects\Solution1\dfatonfa\obj\Debug\net6.0\dfatonfa.dll
+C:\Users\User\RiderProjects\Solution1\dfatonfa\obj\Debug\net6.0\refint\dfatonfa.dll
+C:\Users\User\RiderProjects\Solution1\dfatonfa\obj\Debug\net6.0\dfatonfa.pdb
+C:\Users\User\RiderProjects\Solution1\dfatonfa\obj\Debug\net6.0\dfatonfa.genruntimeconfig.cache
+C:\Users\User\RiderProjects\Solution1\dfatonfa\obj\Debug\net6.0\ref\dfatonfa.dll
