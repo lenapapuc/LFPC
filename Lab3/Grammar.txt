@@ -1,0 +1,43 @@
+G={V, T, P, S}
+VT = {A..Z, a..z, 0..9, '.', ',', '(', ')', '*', '+', '<', '>', 
+     '"', '<=', '==', '>=', ':', if, else, and, or, true, false, Write,
+     return, DO, Function, END, VAR, Write}
+VN = {<program>, <function>, <functionname>, <varName>,<comma>,<string>, <letter>, <digits>, <operations>
+    <bool>, <logicoperation>, <logicoperator>, <arithmeticoperation>, <characters>, <or>, <and>, <operations>, <types>,
+     <float>, <number>, <function name>, <functionCall>, <arithmetic>, <statements>, <builtInFunctions>,
+    <varInitialization>, <conditionaloperations>, <arithmeticoperations>, <signs>  }
+S = <program>
+
+P = 
+{
+<program> -> <function>
+<function> -> Function <functionname>(<varName>(<comma><varName>)*) DO <statements> END
+<functionname> -> <string>
+<varName>-><string>
+<string> -> <letters><characters>*
+<characters> -> <letters><characters>* | <digits><characters>*| <signs><characters>* |empty
+<letters> -> [A..Z, a..z]
+<digits> -> [0..9]
+<signs> -> !|@|#|$|%|^|&|;|_|?|@|\|
+<arithmetic> -> <number>|<float>
+<number> -> <digit><digits>*
+<float> -><digits><digits>*.<digits>*
+<comma>-> ,
+<statements> -> <varInitialization><statements>*|<conditionaloperations><statements>*|<functionCall><statements>*|<builtInFunctions><statements>*|<function><statements>*|<operations><statements>*
+<functionCall> -> <functionname> (<variablename>(<comma><variablename>)*)
+<varInitialization> -> VAR <varName> |VAR <varName> = <types>
+<types>->"<string>"| <arithmetic>| <bool> | <operations>
+<operations> -> <arithmeticopertion> | <logicoperation>
+<arithmeticoperation> -> (<varName> = )*<arithmetic><arithmeticoperator><arithmetic> | 
+                         ( <varName> = )*<varName><arithmeticoperator><varName>
+<logicoperation> -> <varName><logicoperator><varName>
+<conditionaloperations> -> if (<operations>) <statements> (elseif<statements>)* (else<statements>)*
+<builtInFunctions> -> <Write>
+<Write> ->  Write(("<string>")*<comma>*<varName>) | Write(("<string>")*<comma>*<functionCall>) | Write(("<string>")*<comma>*<arithmeticoperation>)
+<arithmeticoperator> -> '+' | '-' | '*' | ':' 
+<logicoperator> -> <or>|<and>|<|>|==|<=|>=
+<bool> = true|false
+<or>->#
+<and>->&
+
+}
