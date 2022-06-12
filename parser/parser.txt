@@ -1,0 +1,9 @@
+VN = {S, A, B, C, D}
+VT = {a, b, c, d, e}
+S -> A
+A -> B
+A -> BeA
+B -> abD
+D -> Cd
+C -> c
+C -> Cc
